@@ -1,5 +1,7 @@
 import { contact, email, revision, launch } from '../assets';
 import Image from 'next/image'
+import { DevicePhoneMobileIcon } from '@heroicons/react/20/solid'
+
 
 const features = [
   {
@@ -33,7 +35,7 @@ const Content = () => {
     <div className="bg-[#163300] py-24 sm:py-32">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-2xl lg:text-center">
-        <h2 className="font-semibold leading-7 text-7xl text-center mb-20 text-[#9FE870]">How It Works</h2>
+        <h2 className="mt-6 mb-10 text-7xl md:text-6xl lg:text-8xl font-extrabold tracking-tight leading-none font-[Wise_Sans] text-[#9FE870]">How It Works</h2>
         <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
           Fix Your Online Presence, Guaranteed
         </p>
@@ -45,9 +47,9 @@ const Content = () => {
         <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-16">
-              <dt className="text-2xl font-semibold leading-7 text-[#9FE870]">
+              <dt className="text-2xl font-semibold leading-7 text-white">
                 <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
-                <Image src={feature.icon} alt={feature.name} className="h-45 w-45 text-white" aria-hidden="true" />
+                <Image src={feature.icon} alt={feature.name} className="h-45 w-45 " aria-hidden="true" />
                 </div>
                 {feature.name}
               </dt>
