@@ -15,9 +15,9 @@ const Testimonials = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-b border-black md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-black dark:text-gray-400">
                     <h3 className="text-2xl font-bold text-black dark:text-white">Speechless with how easy this was to integrate</h3>
-                    <p className="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
-                    <p className="my-4">Flowbite has code in one place and I'm not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
-                    <p className="my-4">If you care for your time, I hands down would go with this."</p>
+                    <p className="my-4">&quot;I recently got my hands on Flowbite Pro, and holy crap, Im speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
+                    <p className="my-4">Flowbite has code in one place and I am not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
+                    <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
                     <img className="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture"/>
@@ -30,9 +30,9 @@ const Testimonials = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-b border-black md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
                 <blockquote className="mx-auto mb-8 max-w-2xl text-black dark:text-gray-400">
                     <h3 className="text-2xl font-bold text-black dark:text-white">Speechless with how easy this was to integrate</h3>
-                    <p className="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
-                    <p className="my-4">Flowbite has code in one place and I'm not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
-                    <p className="my-4">If you care for your time, I hands down would go with this."</p>
+                    <p className="my-4">&quot;I recently got my hands on Flowbite Pro, and holy crap, Im speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
+                    <p className="my-4">Flowbite has code in one place and Im not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
+                    <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
                 </blockquote>
                 <figcaption className="flex justify-center items-center space-x-3">
                     <img className="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture"/>
