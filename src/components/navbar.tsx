@@ -32,7 +32,7 @@ const callsToAction = [
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <header className="bg-white">
+    <header className="bg-white sticky top-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-black">
+            <Popover.Button className="flex items-center gap-x-1 text-sm leading-6 text-black">
               Product
               <ChevronDownIcon className="h-5 w-5 flex-none text-black" aria-hidden="true" />
             </Popover.Button>
@@ -103,18 +103,18 @@ const Navbar = () => {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-black">
+          <a href="#" className="text-sm  leading-6 text-black">
             Pricing
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-black">
+          <a href="#" className="text-sm leading-6 text-black">
             About
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-black">
+          <a href="#" className="text-sm  leading-6 text-black">
             Contact Us
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-bold leading-6 text-[#163300] rounded-full py-2 px-4 bg-primary hover:bg-[#88e653]">
+          <a href="#" className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow">
             Book a Call <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -190,7 +190,7 @@ const Navbar = () => {
               <div className="py-6">
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-[#163300] hover:bg-gray-50"
+                  className="-mx-3 block rounded-xl px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                 Book a Call
                 </a>

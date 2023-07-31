@@ -1,67 +1,58 @@
-import { contact, email, revision, launch } from '../assets';
+import React from 'react'
 import Image from 'next/image'
-import { DevicePhoneMobileIcon } from '@heroicons/react/20/solid'
+import {one, two, three} from '../assets';
 
 
-const features = [
-  {
-    name: '1. Contact Us',
-    description:'Reach out to our web development experts to discuss your project needs and requirements.',
-    icon: contact,
-  },
-  {
-    name: '2. Submit your request',
-    description:
-      'Submit your project details, and our skilled web developer will be dedicated to bringing your vision to life.',
-    icon: email,
-  },
-  {
-    name: '3. Make revisions',
-    description:
-      'If the initial version doesnt fully meet your expectations, no worries! Communicate directly with your assigned web developer and request revisions.',
-    icon: revision,
-  },
-  {
-    name: '4. Launch your website',
-    description:
-      'Once you are satisfied with the final results, we will help you publish your website seamlessly.',
-    icon: launch,
-  },
-]
 
-
-const Content = () => {
+const Feature = () => {
+  
   return (
-    <div className="bg-[#163300] py-24 sm:py-32">
-    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl lg:text-center">
-        <h2 className="mt-6 mb-10 text-7xl md:text-6xl lg:text-8xl font-extrabold tracking-tight leading-none font-[Wise_Sans] text-[#9FE870]">How It Works</h2>
-        <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-          Fix Your Online Presence, Guaranteed
-        </p>
-        <p className="mt-6 text-xl leading-8 text-white">
-        Elevate your web presence effortlessly with our expert web design and development services. We take care of all your creative needs, ensuring a seamless and visually stunning online experience for your users.
-        </p>
+    <div className="bg-[#f7f5f2] py-20 px-10 flex flex-col justify-center items-center">
+    <h1 className="font-semibold text-5xl text-center mb-10 sm:mt-20">Getting started is easy</h1>
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+      {/* First Box */}
+      <div className="border border-black p-4 bg-white rounded-2xl">
+        <Image
+          src={one} // Replace with the actual image path
+          alt="Image 1"
+          className="mt-2 ml-2"
+        />
+        <h2 className="font-semibold mt-4 text-xl ml-3">Submit a request <br/> or contact us</h2>
+        <p className='mt-2 mb-2 ml-3'>Send us a request or contact us to find what suits your business best.</p>
       </div>
-      <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-        <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-          {features.map((feature) => (
-            <div key={feature.name} className="relative pl-16">
-              <dt className="text-2xl font-semibold leading-7 text-white">
-                <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
-                <Image src={feature.icon} alt={feature.name} className="h-45 w-45 " aria-hidden="true" />
-                </div>
-                {feature.name}
-              </dt>
-              <dd className="mt-2 leading-7 text-lg text-white">{feature.description}</dd>
-            </div>
-          ))}
-        </dl>
+
+      {/* Second Box */}
+      <div className="border border-black p-4 bg-white rounded-2xl">
+        <Image
+          src={two} // Replace with the actual image path
+          alt="Image 2"
+          className="mt-2 ml-2"
+        />
+        <h2 className="font-semibold mt-4 text-xl ml-3">Make revisions to <br/> your website</h2>
+        <p className='mt-2 mb-2 ml-3'>If the initial version doesnt fully meet your expectations, communicate directly with a web developer and request revisions.</p>
+      </div>
+
+      {/* Third Box */}
+      <div className="border border-black p-4 bg-white rounded-2xl">
+        <Image
+          src={three} // Replace with the actual image path
+          alt="Image 3"
+          className="mt-2 ml-2"
+        />
+        <h2 className="font-semibold mt-4 text-xl ml-3">Launch your website!</h2>
+        <p className='mt-2 mb-2 ml-3'>Once you are satisfied with the final results, we will help you publish your website seamlessly.</p>
       </div>
     </div>
+    <div className="flex justify-center mt-8">
+    <a href="#" className=" inline-flex justify-center items-center py-3 px-5 text-base md:text-lg lg:text-xl  text-center text-white bg-black rounded-xl py-2 px-4 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 hover:bg-[#6439f5]">
+            Get a Quote
+            <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+          </a>
+  </div>
   </div>
 
-  );
-};
 
-export default Content;
+  );
+}
+
+export default Feature
