@@ -158,7 +158,7 @@ const AboutUs = () => {
              
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Contact Us</h2>
               <p className="mt-6">
-              Ready to take your web projects to the next level? Reach out to us today, and let's discuss how our web agency can help you achieve your online goals. Together, we'll create a digital presence that stands out from the rest.
+              Ready to take your web projects to the next level? Reach out to us today, and let us discuss how our web agency can help you achieve your online goals. Together, we&apos;ll create a digital presence that stands out from the rest.
 Remember, a better workflow awaits you. Lets get started!
               </p>
             </div>
