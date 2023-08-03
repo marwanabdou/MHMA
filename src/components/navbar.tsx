@@ -114,7 +114,7 @@ const Navbar = () => {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow">
+          <a href="#" className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow   transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Book a Call <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -190,7 +190,7 @@ const Navbar = () => {
               <div className="py-6">
                 <a
                   href="#"
-                  className="-mx-3 block rounded-xl px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-50"
+                  className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow"
                 >
                 Book a Call
                 </a>

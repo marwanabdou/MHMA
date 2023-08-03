@@ -17,6 +17,7 @@ import contactus from "./contactus.svg"
 import one from './1.svg'
 import two from './2.svg'
 import three from './3.svg'
+import aboutuspic from './aboutuspic.svg'
 
 
 
@@ -27,6 +28,7 @@ import three from './3.svg'
 
 
 export{
+    aboutuspic,
     one, 
     two,
     three,
