@@ -16,7 +16,7 @@ const BookCall = () => {
   <hr className="border-[#6439f5] border-t-4 w-2/12 mx-auto rounded-full" />
 </div>
 <div className="App">
-      <InlineWidget url="https://calendly.com/mhmawebdesigns/15min" />
+      <InlineWidget url="https://calendly.com/mhma/15min" />
     </div>
 
 

@@ -5,7 +5,6 @@ import launch from './launch.png'
 import nextjs from './nextjs.svg'
 import tailwind from './tailwind.svg'
 import react from './react.svg'
-import vercel from './vercel.svg'
 import setup from './setup.svg'
 import setup2 from './setup2.svg'
 import check from './check.png'
@@ -24,6 +23,7 @@ import develop from './develop.svg'
 import launching from './launch.svg'
 import content from './content.svg'
 import support from './support.svg'
+import vercel from "./vercel.svg"
 
 
 

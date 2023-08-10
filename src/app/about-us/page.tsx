@@ -8,7 +8,7 @@ const AboutUs = () => {
     <section>
 <div className="bg-white py-24 sm:py-32">
 <h1 className="font-black text-5xl text-center mb-5 underline decoration-[#6439f5]">Why MHMA Web Design?</h1>
-<p className="mb-20 mt-1 text-center text-black dark:text-gray-400 text-lg">Our goal is to provide fast, simple, and affordable web design solutions to all businesses.</p>
+<p className="mb-20 mt-1 text-center text-black    text-lg">Our goal is to provide fast, simple, and affordable web design solutions to all businesses.</p>
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
       <div className="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -34,14 +34,14 @@ const AboutUs = () => {
     <div className="max-w-[800px] mx-auto overflow-hidden min-w-max">
     <h1 className="font-semibold text-3xl  lg:text-center  lg:text-5xl md:text-left text-4xl mb-20">See how we compare</h1>
 
-        <div className="grid grid-cols-4 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+        <div className="grid grid-cols-4 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 ">
             <div className="flex items-center"></div>
             <div>MHMA Web Design</div>
             <div>Full-time Hire</div>
             <div>Freelance Platform</div>
         </div>
-        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">Time to hire designer</div>
+        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16">
+            <div className="text-gray-500   ">Time to hire designer</div>
             <div>
                 <h1>1 day</h1>
             </div>
@@ -53,8 +53,8 @@ const AboutUs = () => {
                <h1>5-30 days</h1>
             </div>
         </div>
-        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">Hiring time and fees</div>
+        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 ">
+            <div className="text-gray-500   ">Hiring time and fees</div>
             <div>
                 <h1>$</h1>
             </div>
@@ -67,8 +67,8 @@ const AboutUs = () => {
 
             </div>
         </div>
-        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">Failure rate</div>
+        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16">
+            <div className="text-gray-500   ">Failure rate</div>
             <div>
                 <h1>Very Low</h1>
             </div>
@@ -81,8 +81,8 @@ const AboutUs = () => {
 
             </div>
         </div>
-        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700">
-            <div className="text-gray-500 dark:text-gray-400">Termination Fees</div>
+        <div className="grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 ">
+            <div className="text-gray-500   ">Termination Fees</div>
             <div>
                 <svg className="w-3 h-3 text-red-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>

@@ -15,7 +15,7 @@ const Portfolio = () => {
       </p>
     </div>
 
-    <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 mt-12 text-center gap-8 sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-2">
     <div className="space-y-4 text-left">
        <Image  src={vercel} alt="vercel" />
        <span

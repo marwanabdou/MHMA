@@ -32,6 +32,11 @@ const products = [
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+    const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <header className="bg-white ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -109,7 +114,7 @@ const Navbar = () => {
           <Link href="/about-us" className="text-sm leading-6 text-black">
             About Us
           </Link>
-          <Link href="/our-process" className="text-sm leading-6 text-black">
+          <Link href="/our-process"  className="text-sm leading-6 text-black">
              Our Process
           </Link>
           
@@ -172,24 +177,27 @@ const Navbar = () => {
                 
                 <Link
                   href="/about-us"
+                  onClick={closeMobileMenu}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   About Us
                 </Link>
                 <Link
                   href="/our-process"
+                  onClick={closeMobileMenu}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
                   Our Process
                 </Link>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow"
+                <Link
+                  href="/book-a-call"
+                  onClick={closeMobileMenu}
+                  className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow   transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
                 >
                 Book a Call
-                </a>
+                </Link>
               </div>
             </div>
           </div>
