@@ -7,6 +7,8 @@ import Contact from "@/components/contact";
 import Testimonials from "@/components/testimonials";
 import CTA from "@/components/cta";
 import FAQ from "@/components/faq";
+import Portfolio from "@/components/portfolio";
+
 
 
 

@@ -15,16 +15,17 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { logo } from '../assets';
 
+
 const products = [
   { name: 'Website Design', description: 'Create visually stunning and user-friendly websites', href: '#', icon: ChartPieIcon },
   { name: 'Landing Page Design', description: 'Capture your audience with compelling landing pages', href: '#', icon: CursorArrowRaysIcon },
   { name: 'UI/UX Design', description: 'Craft seamless and intuitive user experiences', href: '#', icon: SquaresPlusIcon },
   { name: 'SEO Optimization', description:  'Improve search engine rankings and integrate with third-party tools', href: '#', icon: FingerPrintIcon },
 ]
-const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
-]
+// const callsToAction = [
+//   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
+//   { name: 'Contact sales', href: '#', icon: PhoneIcon },
+// ]
 
 
 
@@ -32,10 +33,10 @@ const callsToAction = [
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <header className="bg-white sticky top-0 z-50">
+    <header className="bg-white ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">MHMA Web Design</span>
             <Image className="h-10 w-auto" src={logo} alt="MHMA" />
             
@@ -54,7 +55,7 @@ const Navbar = () => {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm leading-6 text-black">
-              Product
+              Services
               <ChevronDownIcon className="h-5 w-5 flex-none text-black" aria-hidden="true" />
             </Popover.Button>
 
@@ -67,6 +68,7 @@ const Navbar = () => {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
+              
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black">
                 <div className="p-4">
                   {products.map((item) => (
@@ -78,16 +80,16 @@ const Navbar = () => {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
                       <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-black">
+                        <p className="block font-semibold text-black">
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </p>
                         <p className="mt-1 text-black">{item.description}</p>
                       </div>
                     </div>
                   ))}
                 </div>
-                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                   {callsToAction.map((item) => (
                     <a
                       key={item.name}
@@ -98,33 +100,32 @@ const Navbar = () => {
                       {item.name}
                     </a>
                   ))}
-                </div>
+                </div> */}
               </Popover.Panel>
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm  leading-6 text-black">
-            Pricing
-          </a>
-          <a href="#" className="text-sm leading-6 text-black">
-            About
-          </a>
-          <a href="#" className="text-sm  leading-6 text-black">
-            Contact Us
-          </a>
+          
+          <Link href="/about-us" className="text-sm leading-6 text-black">
+            About Us
+          </Link>
+          <Link href="/our-process" className="text-sm leading-6 text-black">
+             Our Process
+          </Link>
+          
+          
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow   transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+          <Link href="/book-a-call" className="text-md leading-6 text-white rounded-xl py-2 px-4 bg-[#6439f5] hover:shadow   transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Book a Call <span aria-hidden="true">&rarr;</span>
-          </a>
+          </Link>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <a href="/" className="-m-1.5 p-1.5">
               <Image
                 className="h-8 w-auto"
                 src={logo}
@@ -147,18 +148,18 @@ const Navbar = () => {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-black hover:bg-gray-50">
-                        Product
+                        Services
                         {/* <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
                         /> */}
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
-                            href={item.href}
+                            // href={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-black hover:bg-gray-50"
                           >
                             {item.name}
@@ -168,24 +169,19 @@ const Navbar = () => {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="#"
+                
+                <Link
+                  href="/about-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
-                  Features
-                </a>
-                <a
-                  href="#"
+                  About Us
+                </Link>
+                <Link
+                  href="/our-process"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 >
-                  About
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                >
-                  Contact Us
-                </a>
+                  Our Process
+                </Link>
               </div>
               <div className="py-6">
                 <a

@@ -32,7 +32,7 @@ const AboutUs = () => {
 
     <div id="detailed-pricing" className="overflow-x-auto">
     <div className="max-w-[800px] mx-auto overflow-hidden min-w-max">
-    <h1 className="font-semibold text-5xl  lg:text-center  sm:text-left text-3xl md:text-left text-4xl mb-20">See how we compare</h1>
+    <h1 className="font-semibold text-3xl  lg:text-center  lg:text-5xl md:text-left text-4xl mb-20">See how we compare</h1>
 
         <div className="grid grid-cols-4 p-4 text-sm font-medium text-gray-900 bg-gray-100 border-t border-b border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
             <div className="flex items-center"></div>

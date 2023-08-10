@@ -18,6 +18,12 @@ import one from './1.svg'
 import two from './2.svg'
 import three from './3.svg'
 import aboutuspic from './aboutuspic.svg'
+import search from './search.svg'
+import onboarding from './onboarding.svg'
+import develop from './develop.svg'
+import launching from './launch.svg'
+import content from './content.svg'
+import support from './support.svg'
 
 
 
@@ -28,6 +34,13 @@ import aboutuspic from './aboutuspic.svg'
 
 
 export{
+
+    onboarding,
+    develop,
+    launching,
+    content,
+    support,
+    search,
     aboutuspic,
     one, 
     two,
