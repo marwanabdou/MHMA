@@ -97,7 +97,7 @@ const OurProcess = () => {
           6. Support and Maintenance
         </h3>
         <p className="mt-5 text-gray-600">
-        While your new website is live, your business evolves constantly, primarily through growth. Our team is on standby, prepared to implement alterations as per your needs. We present website hosting packages featuring monthly upkeep and development allocation. A committed support unit collaborates with you on updates, maintenance, and training. 
+        While your new website is live, your business evolves constantly, primarily through growth. Our team is on standby, prepared to implement alterations as per your needs. We present website maintenance packages featuring monthly upkeep and development allocation. A committed support unit collaborates with you on updates, maintenance, and training. 
         </p>
       </div>
      
