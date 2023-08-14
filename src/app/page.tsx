@@ -12,13 +12,7 @@ import Portfolio from '@/components/portfolio';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>MHMA Web Design</title>
-        <meta name="description" content="Transforming your digital presence with innovative web design solutions. We craft stunning and user-friendly websites that captivate your audience and drive results. Contact us to elevate your online brand today." />
-        <link rel="icon" href="/favicon.ico" />
-        {/* You can add more meta tags here */}
-      </Head>
+   
       <main>
       <HeroSection />
       <Content />
@@ -28,6 +22,6 @@ export default function Home() {
       <FAQ />
       {/* <Contact /> */}
     </main>
-    </>
+    
   );
 }

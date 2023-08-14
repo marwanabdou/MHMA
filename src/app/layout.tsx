@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import "../styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -8,11 +9,13 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "MHMA Web Design Company",
-  description: "",
-};
 
+
+export const metadata: Metadata = {
+  title: 'MHMA Web Design Company',
+  description: 'Transforming your digital presence with innovative web design solutions. We craft stunning and user-friendly websites that captivate your audience and drive results. Contact us to elevate your online brand today.',
+  };
+  
 
 
 
