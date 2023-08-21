@@ -19,8 +19,7 @@ import { logo } from '../assets';
 const products = [
   { name: 'Website Design', description: 'Create visually stunning and user-friendly websites', href: '#', icon: ChartPieIcon },
   { name: 'Landing Page Design', description: 'Capture your audience with compelling landing pages', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'UI/UX Design', description: 'Craft seamless and intuitive user experiences', href: '#', icon: SquaresPlusIcon },
-  { name: 'SEO Optimization', description:  'Improve search engine rankings and integrate with third-party tools', href: '#', icon: FingerPrintIcon },
+  { name: 'UI/UX Design', description: 'Craft seamless and intuitive user experiences', href: '#', icon: SquaresPlusIcon }
 ]
 // const callsToAction = [
 //   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },

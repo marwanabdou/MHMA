@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: 'MHMA Web Design Company',
+  title: 'MHMA Web Design',
   description: 'Transforming your digital presence with innovative web design solutions. We craft stunning and user-friendly websites that captivate your audience and drive results. Contact us to elevate your online brand today.',
   };
   
