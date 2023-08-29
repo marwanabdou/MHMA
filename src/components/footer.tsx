@@ -22,6 +22,14 @@ const Footer = () => {
         <Link href="/book-a-call" className="mr-4 hover:underline md:mr-6 ">Contact Us</Link>
 
         </li>
+        <li>
+        <Link href="/privacy-policy" className="mr-4 hover:underline md:mr-6 ">Privacy Policy</Link>
+
+        </li>
+        <li>
+        <Link href="/refund-policy" className="mr-4 hover:underline md:mr-6 ">Refund Policy</Link>
+
+        </li>
         
     </ul>
     </div>
