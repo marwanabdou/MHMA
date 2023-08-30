@@ -59,14 +59,7 @@ const RefundPolicy = () => {
           <li>Any work completed and approved by you during the project</li>
         </ul>
       </p>
-      <h3 className="font-semibold mt-5  mr-10 ml-10">Security</h3>
-      <p className="  mr-10 ml-10">
-        The security of your Personal Information is important to us, but
-        remember that no method of transmission over the Internet, or method of
-        electronic storage, is 100% secure. While we strive to use commercially
-        acceptable means to protect your Personal Information, we cannot
-        guarantee its absolute security.
-      </p>
+      
       <h3 className="font-semibold mt-5  mr-10 ml-10">
         Cancellation of Ongoing Services
       </h3>
