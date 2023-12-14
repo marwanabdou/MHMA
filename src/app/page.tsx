@@ -9,6 +9,7 @@ import Testimonials from '@/components/testimonials';
 import CTA from '@/components/cta';
 import FAQ from '@/components/faq';
 import Portfolio from '@/components/portfolio';
+import Projects from '@/components/projects';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Content />
       <Testimonials />
       <Feature />
+      <Projects />
       <CTA />
       <FAQ />
       {/* <Contact /> */}

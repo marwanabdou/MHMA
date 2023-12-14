@@ -24,6 +24,9 @@ import launching from './launch.svg'
 import content from './content.svg'
 import support from './support.svg'
 import vercel from "./vercel.svg"
+import a1 from "./a1.png"
+import b1 from "./b1.png"
+import c1 from "./c1.png"
 
 
 
@@ -34,7 +37,9 @@ import vercel from "./vercel.svg"
 
 
 export{
-
+    a1,
+    b1,
+    c1,
     onboarding,
     develop,
     launching,
