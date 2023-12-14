@@ -6,7 +6,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <section className="bg-white antialiased">
-      <div className="max-w-screen-xl px-4 mx-auto lg:px-6 sm:py-10 lg:py-10">
+      <div className="max-w-screen-xl px-4 py-4 mx-auto lg:px-6 sm:py-16 lg:py-10">
       <div className="max-w-2xl mx-auto text-center">
       <h2 className="font-semibold text-5xl text-center sm:mt-20">
         Our Work
