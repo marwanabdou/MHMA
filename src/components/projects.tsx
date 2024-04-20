@@ -66,8 +66,7 @@ const Projects = () => {
               Construction Firm
             </span>
             <h3 className="text-2xl font-bold leading-tight text-gray-900">
-              Alex Cooper: Peek Inside Her Serene Country Retreat in the Heart
-              of LA
+             First Construction Co.
             </h3>
 
             <a
